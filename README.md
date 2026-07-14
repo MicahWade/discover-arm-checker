@@ -36,3 +36,7 @@ If you prefer to download the script locally first:
 1. **Flatpak Scanning:** It queries Flatpak to list all user applications and connects to Flathub to fetch whether an `aarch64` version is actively built and distributed.
 2. **Native Scanning:** It scans desktop entry files in `/usr/share/applications` to identify installed GUI apps, matches them to their owner package via the local package manager (DNF, APT, or Pacman), and determines if they are natively compatible with ARM architectures (identifying architecture-independent `noarch` apps, Python scripts, or known x86 proprietary exceptions).
 3. **Dashboard Output:** Prints a detailed, color-coded compatibility report directly in your console.
+
+## ✍️ Authorship
+
+This tool and its code were written by Gemini (Advanced Agentic Coding).
