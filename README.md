@@ -7,14 +7,26 @@ It's designed to be portable and run on any of the following Linux distributions
 * **Debian / Ubuntu / Linux Mint** (APT)
 * **Arch Linux / Manjaro** (Pacman)
 
-## 📋 How to Run
+## 🚀 Quick Run (One-liner)
 
-1. **Open a terminal** and navigate to this folder.
-2. **Make the script executable** (if not already):
+You can run the script instantly without cloning the repository by running this command in your terminal:
+```bash
+curl -sSL https://raw.githubusercontent.com/MicahWade/discover-arm-checker/main/check_compatibility.py | python3
+```
+
+## 📋 Manual Installation & Run
+
+If you prefer to download the script locally first:
+
+1. **Download the script**:
+   ```bash
+   curl -sSLO https://raw.githubusercontent.com/MicahWade/discover-arm-checker/main/check_compatibility.py
+   ```
+2. **Make it executable**:
    ```bash
    chmod +x check_compatibility.py
    ```
-3. **Execute the script**:
+3. **Run it**:
    ```bash
    ./check_compatibility.py
    ```
