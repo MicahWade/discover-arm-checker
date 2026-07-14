@@ -39,5 +39,5 @@ If you prefer to download the script locally first:
 
 ## ✍️ Authorship
 
-This tool and its code were written by Gemini (Advanced Agentic Coding) using the GPT-OSS 120B model.
+This tool and its code were written by Gemini and GPT-OSS 120B.
 For more context, see the article on Steamframe Linux laptops: https://policypackets.au/posts/steamframe-linux-laptops
